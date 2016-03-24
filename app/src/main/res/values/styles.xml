@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Start Light Theme -->
+    <style name="MyLightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+        <item name="NumberButton">@style/LightNumberButton</item>
+        <item name="OtherButton">@style/LightOtherButton</item>
+        <item name="BigText">@style/LightBigText</item>
+        <item name="SmallText">@style/LightSmallText</item>
+        <item name="Screen">@style/LightScreen</item>
+        <item name="Background">@style/LightBackground</item>
+    </style>
+
+    <style name="LightNumberButton" parent="android:Widget.Button">
+        <item name="android:background">@color/light_num_btn_bg</item>
+        <item name="android:textColor">@color/light_num_btn_txt</item>
+    </style>
+
+    <style name="LightOtherButton" parent="android:Widget.Button">
+        <item name="android:background">@color/light_other_btn_bg</item>
+        <item name="android:textColor">@color/light_other_btn_txt</item>
+    </style>
+
+    <style name="LightScreen">
+        <item name="android:background">@color/light_txt_bg</item>
+    </style>
+
+    <style name="LightBigText" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/light_txt_lg</item>
+    </style>
+
+    <style name="LightSmallText" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/light_txt_sm</item>
+    </style>
+
+    <style name="LightBackground">
+        <item name="android:background">@color/light_bg</item>
+    </style>
+
+    <!-- End Light Theme -->
+
+    <!-- Start Dark Theme -->
+    <style name="MyDarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="NumberButton">@style/DarkNumberButton</item>
+        <item name="OtherButton">@style/DarkOtherButton</item>
+        <item name="BigText">@style/DarkBigText</item>
+        <item name="SmallText">@style/DarkSmallText</item>
+        <item name="Screen">@style/DarkScreen</item>
+        <item name="Background">@style/DarkBackground</item>
+    </style>
+
+    <style name="DarkNumberButton" parent="android:Widget.Button">
+        <item name="android:background">@color/dark_num_btn_bg</item>
+        <item name="android:textColor">@color/dark_num_btn_txt</item>
+    </style>
+
+    <style name="DarkOtherButton" parent="android:Widget.Button">
+        <item name="android:background">@color/dark_other_btn_bg</item>
+        <item name="android:textColor">@color/dark_other_btn_txt</item>
+    </style>
+
+    <style name="DarkScreen">
+        <item name="android:background">@color/dark_txt_bg</item>
+    </style>
+
+    <style name="DarkBigText" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/dark_txt_lg</item>
+    </style>
+
+    <style name="DarkSmallText" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/dark_txt_sm</item>
+    </style>
+
+    <style name="DarkBackground">
+        <item name="android:background">@color/dark_bg</item>
+    </style>
+</resources>

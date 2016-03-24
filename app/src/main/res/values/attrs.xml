@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="NumberButton" format="reference" />
+    <attr name="OtherButton" format="reference" />
+    <attr name="BigText" format="reference" />
+    <attr name="SmallText" format="reference" />
+    <attr name="Screen" format="reference" />
+    <attr name="Background" format="reference" />
+</resources>
